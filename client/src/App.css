@@ -1,0 +1,159 @@
+.navbar {
+  padding: 0px !important;
+}
+/* .photo {
+  background-image: url(./images/springs.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+  opacity: 0.5;
+} */
+
+/*  */
+#loginn .view {
+  background-image: url(./images/saigon-night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+#loginn .gradient {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.7),
+    rgba(72, 15, 144, 0.4) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    45deg,
+    from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.7),
+    rgba(72, 15, 144, 0.4) 100%
+  );
+}
+
+#loginn .card {
+  background-color: rgba(126, 123, 215, 0.2);
+}
+
+#loginn h6 {
+  line-height: 1.7;
+}
+
+#loginn .navbar {
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+#loginn .top-nav-collapse {
+  background: #424f95 !important;
+}
+
+@media (max-width: 768px) {
+  #loginn .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+  }
+}
+
+#loginn label {
+  color: #fff !important;
+}
+/* Google login Button */
+.google-btn {
+  box-shadow: none !important;
+  border-left: none !important;
+  border: 1px solid gainsboro !important;
+  opacity: 1 !important;
+  font-size: 16px !important;
+}
+
+/* footers */
+footer {
+  /* position: absolute; */
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  background-color: initial;
+  background-image: url(./images/hinh-nen.png);
+
+  display: flex;
+}
+
+.flexify {
+  font-size: 20px;
+  display: flex;
+  width: 200px;
+  height: 40px;
+}
+.footerBox {
+  width: 350px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigFotterBox {
+  width: 100%;
+  max-width: 1205px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border-radius: 100px; */
+}
+
+.testestest {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* cart */
+.container {
+  padding: 2rem 0rem;
+}
+
+.table-image thead td,
+.table-image thead th {
+  border: 0;
+  color: black;
+  font-size: 0.8rem;
+}
+.table-image td,
+.table-image th {
+  vertical-align: middle;
+  text-align: center;
+}
+.table-image td.qty,
+.table-image th.qty {
+  max-width: 2rem;
+}
+
+.price {
+  margin-left: 1rem;
+}
+
+.modal-footer {
+  padding-top: 0rem;
+}
+
+.home {
+  /* background-image: url(./images/homeImage.jpeg);
+  width: 1270px;
+  height: 2300px;
+  background-color: antiquewhite;
+  background-repeat: no-repeat; */
+}
+.card {
+  border: none;
+  left: 4rem;
+}
+.text-menu {
+  margin: 10px 0 20px;
+  line-height: 1.4;
+  color: #ea8025;
+}
+.color-cart {
+  color: black;
+}
